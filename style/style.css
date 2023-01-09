@@ -1,0 +1,52 @@
+@charset 'UTF-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    width: 96vw;
+    height: 97vh;
+    background-color: #50422e;
+    background-image: url("../img/fundo-madeira.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+main{
+    position: relative;
+    height: 98vh;
+}
+#Telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/frame-iphone.png");
+    height: 627px;
+    width: 311px;
+}
+#Tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+#Botoes{
+
+}
+#Botoes a img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px #00000041;
+    box-sizing: border-box;
+}
+#Botoes a img:hover{
+    border: 2px solid #ffffff8e;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #00000044;
+}
